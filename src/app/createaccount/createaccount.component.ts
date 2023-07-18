@@ -1,12 +1,14 @@
 import { Component } from "@angular/core";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 
+
+export class CreateaccountComponent {
+
 @Component({
   selector: 'app-createaccount',
   templateUrl: './createaccount.component.html',
   styleUrls: ['./createaccount.component.css']
 })
-export class CreateaccountComponent {
 
   password1:string="";
   password2:string="";
