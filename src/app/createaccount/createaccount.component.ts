@@ -2,6 +2,11 @@ import { Component } from "@angular/core";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 
 
+@Component({
+  selector: 'my-createaccount',
+  templateUrl: './createaccount.component.html',
+  styleUrls: ['./createaccount.component.css']
+})
 export class CreateaccountComponent {
 
 @Component({
