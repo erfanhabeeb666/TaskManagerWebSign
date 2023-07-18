@@ -1,0 +1,22 @@
+<div>
+    <div class="side-nav-container">
+        <img class="MaverixPro-icon" src="assets/MaverixPro-logo.png" alt="">
+    </div>
+    <div class="body-container">
+        <div class="form-container">
+            <h1 style="color: aliceblue;">Create an Account</h1><hr style="width: 10%;"><br>
+            <input type="text" placeholder="Full Name" name="fullName" id="Name" style="width: 40%;height: 40% ;" required><br><br>
+            <input type="text" placeholder="Email" name="email" id="email"style="width: 40%;height: 40%;" required><br><br>
+            <input type="password1" [(ngModel)]=" password1" placeholder="Password"name="Password" id="password" style="width: 40%;height: 40%;" required><br><br>
+            <input type="password2" [(ngModel)]="password2" name="Confirm Password"placeholder="confirmPassword" id="confirmPassword"style="width: 40%;height: 40%;"
+                required><br><br>
+            <button style="background-color: #e8e8e8; width: 20%;height: 40%;border-radius: 8px;" type="button" (click)="submitForm()">Create</button><br>
+            <p style="color: white;">OR</p>
+        </div>
+        <div class="google-container">
+            <button style="background-color: #f7f7f7;border-radius: 8px;" type="button" onclick="checkpassword()" >Sign in with Google
+                <img class="google-image" src="assets/google.png" alt="google">
+            </button>
+        </div>
+        </div>
+</div>

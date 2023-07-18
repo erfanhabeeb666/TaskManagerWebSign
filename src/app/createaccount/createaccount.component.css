@@ -1,0 +1,38 @@
+.body {
+    margin: 0;
+}
+
+.side-nav-container {
+    width: 20%;
+    height: 600px;
+    background-color: #fff;
+    float: left;
+}
+
+.body-container {
+    width: 80%;
+    height: 600px;
+    background-color: rgb(74, 12, 199);
+    float: right;
+}
+
+.MaverixPro-icon {
+    padding: 5px;
+    width: 90%;
+}
+
+.form-container {
+
+    padding-top: 5%;
+   text-align: center;
+   width: 100%;
+}
+
+.google-container {
+    text-align: center;
+}
+
+.google-image {
+    width: 20px;
+    float: left;
+}
